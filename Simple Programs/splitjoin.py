@@ -1,0 +1,6 @@
+print("Enter a line: ",end="")
+n=input()
+split=n.split(" ")
+print(split)
+join=".".join(split)
+print(join)
