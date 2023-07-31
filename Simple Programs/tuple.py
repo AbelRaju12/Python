@@ -1,5 +1,0 @@
-n=int(input())
-print("Enter",n,"integers:",end="")
-integers=map(int,input().split())
-integer_tuple=tuple((integers))
-print(hash(integer_tuple))
